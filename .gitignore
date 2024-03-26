@@ -1,0 +1,5 @@
+# Exclude .vscode folder
+.vscode/
+
+# Exclude target folder
+target/
