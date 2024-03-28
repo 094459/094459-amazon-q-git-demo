@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT
 package uk.co.beachgeek.demo;
 
 import org.junit.jupiter.api.Test;

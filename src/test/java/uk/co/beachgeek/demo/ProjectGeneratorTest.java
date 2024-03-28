@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT
 package uk.co.beachgeek.demo;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;

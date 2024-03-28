@@ -1,4 +1,6 @@
-package uk.co.beachgeek.demo;
+// SPDX-License-Identifier: MIT
+package uk.co.beachgeek.demo;  
+
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestBody;

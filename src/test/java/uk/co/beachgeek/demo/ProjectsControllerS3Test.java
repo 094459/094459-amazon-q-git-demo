@@ -1,4 +1,6 @@
+// SPDX-License-Identifier: MIT
 package uk.co.beachgeek.demo;
+
 
 import static org.mockito.Mockito.*;
 
@@ -16,7 +18,9 @@ public class ProjectsControllerS3Test {
     AmazonS3 s3ClientMock = mock(AmazonS3.class);
     ProjectsController controller = new ProjectsController();
     //controller.s3Client = s3ClientMock; // Inject mock
-     controller.s3Client = AmazonS3ClientBuilder.defaultClient();
+     controller.s3Client = AmazonS3ClientBuilder.standard()
+     .withRegion("eu-west-2")
+     .build();
 
 
     controller.getProjects();

@@ -1,4 +1,6 @@
+// SPDX-License-Identifier: MIT
 package uk.co.beachgeek.demo;
+
 import com.amazonaws.services.s3.AmazonS3;
 import com.amazonaws.services.s3.AmazonS3ClientBuilder;
 import com.fasterxml.jackson.databind.ObjectMapper;

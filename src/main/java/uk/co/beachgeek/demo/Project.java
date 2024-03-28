@@ -1,4 +1,6 @@
+// SPDX-License-Identifier: MIT
 package uk.co.beachgeek.demo;
+
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 /**
