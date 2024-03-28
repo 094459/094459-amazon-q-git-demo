@@ -13,6 +13,7 @@ public class WelcomeController {
         throw new IllegalArgumentException("Model cannot be null"); 
       }
     model.addAttribute("projectUrl","/projects");
+    model.addAttribute("projects", ProjectGenerator.generateProjects());
     return "welcome"; 
   }
 

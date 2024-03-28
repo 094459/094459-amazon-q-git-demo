@@ -7,6 +7,10 @@
 <body>
   <h1>Welcome to my awesome App!</h1>
   <a th:href="@{${projectUrl}}">Projects</a>
+  <ul>
+    <li th:each="project : ${projects}" 
+        th:text="${project.name}"></li>
+  </ul>
 
 </body>
 </html>

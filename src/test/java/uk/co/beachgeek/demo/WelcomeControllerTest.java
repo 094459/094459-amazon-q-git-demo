@@ -11,7 +11,6 @@ import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.test.web.servlet.MockMvc;
 import org.junit.runner.RunWith;
 
-
 @RunWith(SpringRunner.class)
 @WebMvcTest(WelcomeController.class)
 public class WelcomeControllerTest {
